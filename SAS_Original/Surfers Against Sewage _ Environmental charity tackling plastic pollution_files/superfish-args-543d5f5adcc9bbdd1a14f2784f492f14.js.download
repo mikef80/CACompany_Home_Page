@@ -1,0 +1,1 @@
+jQuery(function($){'use strict';$('.js-superfish').superfish({'delay':10,'animation':{'opacity':'show','height':'show'},'speed':'fast','speedOut':'slow','disableHI':!0})})

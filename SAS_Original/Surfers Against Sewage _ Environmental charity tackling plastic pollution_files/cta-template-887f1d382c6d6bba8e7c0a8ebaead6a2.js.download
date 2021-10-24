@@ -1,0 +1,4 @@
+(function($){if($('.page-template-page-calls-to-action').length>0){$('.entry-content').remove();$('article.type-page').remove()}
+function sas_equal_columns(container,element_one,element_two){$(container).each(function(){if(element_one){var highestBoxOne=0;$(element_one,this).each(function(){if($(this).height()>highestBoxOne){highestBoxOne=$(this).height()}});$(element_one,this).height(highestBoxOne)}
+if(element_two){var highestBoxTwo=0;$(element_two,this).each(function(){if($(this).height()>highestBoxTwo){highestBoxTwo=$(this).height()}});$(element_two,this).height(highestBoxTwo)}})}
+sas_equal_columns('.ctapt_calls_row','.ctapt_call_bottom h4','.ctapt_call_bottom p')})(jQuery)
