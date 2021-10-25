@@ -1,24 +1,66 @@
+/* FONT IMPORT */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* UNIVERSAL STYLE */
+
 * {
     border: 0;
     margin: 0;
+    font-family: 'Roboto condensed', Arial, sans-serif;
 }
+
+/* TOP NAV BAR */
 
 .container {
     display: flex;
 }
 
+/* body {
+    justify-content: center;
+} */
+
 .content {
     justify-content: center;
+    width: 1000px;
 }
 
-#a1 {
-    background-color: lightgrey;
-    min-width: 100%;
-    min-height: 50px;
+#top-nav {
+    background-color: hsla(0,0%,0%,5%);
+    width: 100%;
+    justify-content: center;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
 }
 
-#a2 {
-    background-color: lightblue;
-    min-width: 50%;
-    min-height: 50px;
+#tnlinks {
+    justify-content: space-between;
 }
+
+#tnlinks nav a {
+    padding: 10px 7px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+#tnlinks img {
+    max-height: 14px;
+    
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+/* SECOND NAV BAR */
+
+#second-nav {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
