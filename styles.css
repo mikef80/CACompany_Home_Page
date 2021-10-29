@@ -1,6 +1,11 @@
 /* FONT IMPORT */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@font-face {
+    font-family: 'HVDRegular';
+    /* src: url(fonts\HVDRegular\web fonts\hvdposter_regular_macroman); */
+    src: url('/fonts/HVDRegular/web\ fonts/hvdposter_regular_macroman/HVD_Poster-webfont.woff') format('woff')
+}
 
 /* UNIVERSAL STYLE */
 
@@ -34,18 +39,18 @@
     border-bottom: 1px solid black;
 }
 
-#tnlinks {
+.tnlinks1 {
     justify-content: space-between;
 }
 
-#tnlinks nav a {
+.tnlinks1 nav a {
     padding: 10px 7px;
     margin: 0 8px;
     text-decoration: none;
     color: rgb(128, 128, 128);
 }
 
-#tnlinks img {
+.tnlinks img {
     max-height: 14px;
     
 }
@@ -61,6 +66,68 @@
     justify-content: center;
     font-size: 1.25rem;
     font-weight: bold;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
+    line-height: 1.625;
 }
 
+#logo {
+    /* background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/sas-logo-full.png); */
+    max-width: 150px;
+    max-height: auto;
+}
+
+#logo img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 23.5px 0;
+}
+
+.tnlinks2 nav a {
+    padding: 10px 7px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.125rem;
+}
+
+#join {
+    color: red;
+}
+
+.snlist {
+    list-style:none;
+    align-items: center;
+}
+
+/* TOP BANNER */
+
+#tbimg1 {
+    background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
+    background-color: lightskyblue;
+    background-blend-mode: multiply;
+    height: 360px;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tbimg1 div {
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+#tbimg1 p {
+    font-family: 'HVDRegular';
+    /* justify-content: center; */
+}
+
+#tbimg1 p:first-child {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#tbimg1 p:last-child {
+    font-size: 29px;
+    font-weight: 400;
+}
