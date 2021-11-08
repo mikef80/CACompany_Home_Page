@@ -1,0 +1,24 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    justify-content: center;
+}
+
+#a1 {
+    background-color: lightgrey;
+    min-width: 100%;
+    min-height: 50px;
+}
+
+#a2 {
+    background-color: lightblue;
+    min-width: 50%;
+    min-height: 50px;
+}
