@@ -103,7 +103,7 @@
 
 #tbimg1 {
     background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
-    background-color: lightskyblue;
+    background-color: #01B7C6;
     background-blend-mode: multiply;
     height: 360px;
     min-width: 100%;
@@ -134,14 +134,93 @@
 
 #tbimg2 {
     /* background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg); */
-    background-color: lightskyblue;
+    background-color: /* lightskyblue */ #01B7C6;
     background-blend-mode: multiply;
     height: 360px;
-    max-width: 100%;
+    min-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #tbimg2 div {
-    margin: auto 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    color: white;
+}
+
+#tbimg2 div p {
+    padding: 0 15px;
+}
+
+/* #tbimg2 p {
+    font-family: 'HVDRegular';
+    /* justify-content: center; */
+/*} */
+
+#tbimg2 p:first-child {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+#tbimg2 img {
+    max-width: 460px;
+}
+
+#tbimg2 p:last-child {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* MAIN SECTION */
+
+#gall_head {
+    /* background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
+    background-color: #01B7C6;
+    background-blend-mode: multiply; */
+    /* height: 360px; */
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gall_head div {
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+#gall_head p {
+    font-family: 'HVDRegular';
+    align-self: center;
+    /* justify-content: center; */
+}
+
+#gall_head p:last-child {
+    color: #00aeb8;
+    font-size: 80px;
+    font-weight: 4040px;
+    margin-bottom: 40px;
+}
+
+#gall_head p:first-child {
+    color: #0b4b4d;
+    font-size: 29px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+#gallery {
+    justify-content: center;
+    align-items: center;
+}
+
+#gallery-pics {
+    flex-wrap: wrap;
+}
+
+#gallery-pics div img {
+    max-width: 294px;
+    padding: 0 15px;
 }
