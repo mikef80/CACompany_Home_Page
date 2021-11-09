@@ -220,7 +220,45 @@
     flex-wrap: wrap;
 }
 
-#gallery-pics div img {
+#gallery-pics div {
     max-width: 294px;
-    padding: 0 15px;
+    margin: 0 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#gallery-pics>div {
+    border: 1px solid black;
+}
+
+#gallery-pics div div {
+    height: 375px;
+}
+
+#gallery-pics img {
+    max-width: 100%;
+}
+
+#mmbc {
+    background-color: #00b6c7;
+}
+
+#gallery-pics h3 {
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+#gallery-pics hr {
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+#gallery-pics p {
+    font-size: 23px;
+}
+
+.button {
+    height: 50px;
 }
