@@ -222,7 +222,7 @@
 
 #gallery-pics div {
     max-width: 294px;
-    margin: 0 15px;
+    margin: 15px;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -232,7 +232,7 @@
     border: 1px solid black;
 }
 
-#gallery-pics div div {
+#gallery-pics>div>div {
     height: 375px;
 }
 
@@ -240,9 +240,7 @@
     max-width: 100%;
 }
 
-#mmbc {
-    background-color: #00b6c7;
-}
+
 
 #gallery-pics h3 {
     text-transform: uppercase;
@@ -259,6 +257,36 @@
     font-size: 23px;
 }
 
-.button {
-    height: 50px;
+#gallery-pics .button {
+    padding: 22px;
+    font-family: 'Roboto condensed', Arial, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* height: 30px; */
+    margin: 30px 0;
+    /* width: auto; */
+    /* max-width: auto; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#mmbc, #WQR {
+    background-color: #00b6c7;
+}
+
+#BAR {
+    background-color: #F6565E;
+}
+
+#PFC {
+    background-color: #4DA0E5;
+}
+
+#OCR {
+    background-color: #B2D235;
+}
+
+#fund {
+    background-color: #D6C2AD;
 }
