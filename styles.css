@@ -290,3 +290,26 @@
 #fund {
     background-color: #D6C2AD;
 }
+
+#join_us {
+    /* border: 1px solid black; */
+    position: fixed;
+    right: 0;
+    top: 33.33%;
+    z-index: 4;
+    background-color: #92D7E7;
+    width: auto;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#join_us a {
+    text-decoration: none;
+}
+
+#join_us a * {
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+}
