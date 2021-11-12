@@ -21,12 +21,9 @@
     display: flex;
 }
 
-/* body {
-    justify-content: center;
-} */
-
 .content {
     justify-content: center;
+    align-items: center;
     width: 1000px;
 }
 
@@ -101,14 +98,23 @@
 
 /* TOP BANNER */
 
+.fixed-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 #tbimg1 {
     background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
-    background-color: #01B7C6;
-    background-blend-mode: multiply;
+    background-color: #84cbd3;
+    background-blend-mode: color-burn;
     height: 360px;
     min-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 #tbimg1 div {
@@ -233,7 +239,7 @@
 }
 
 #gallery-pics>div>div {
-    height: 375px;
+    height: 350px;
 }
 
 #gallery-pics img {
@@ -269,6 +275,8 @@
     /* width: auto; */
     /* max-width: auto; */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: 0px;
 }
 
 #mmbc, #WQR {
@@ -312,4 +320,21 @@
     color: white;
     vertical-align: middle;
     align-items: center;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+#donate {
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+#donate_sub {
+    background-image: url('https://www.sas.org.uk/wp-content/uploads/home-feat-cta.jpg');
 }
