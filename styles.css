@@ -4,7 +4,7 @@
 @font-face {
     font-family: 'HVDRegular';
     /* src: url(fonts\HVDRegular\web fonts\hvdposter_regular_macroman); */
-    src: url('/fonts/HVDRegular/web\ fonts/hvdposter_regular_macroman/HVD_Poster-webfont.woff') format('woff')
+    src: url('fonts/HVDRegular/web\ fonts/hvdposter_regular_macroman/HVD_Poster-webfont.woff') format('woff')
 }
 
 /* UNIVERSAL STYLE */
@@ -106,7 +106,7 @@
 }
 
 #tbimg1 {
-    background: url(/SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
+    background: url(SAS_Original/Surfers\ Against\ Sewage\ _\ Environmental\ charity\ tackling\ plastic\ pollution_files/voice-of-the-ocean-banner.jpg);
     background-color: #84cbd3;
     background-blend-mode: color-burn;
     height: 360px;
