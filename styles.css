@@ -131,6 +131,7 @@
 #tbimg1 p:first-child {
     font-size: 80px;
     font-weight: 400;
+    padding-bottom: 30px;
 }
 
 #tbimg1 p:last-child {
