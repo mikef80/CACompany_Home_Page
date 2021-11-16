@@ -496,7 +496,7 @@
     font-size: 20px;
     text-align: center;
     /* padding-top: 50px; */
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     line-height: 1.5;
 }
 
@@ -508,3 +508,22 @@
     padding: 0 40px;
 }
 
+#footer {
+    padding: 70px 0;
+    justify-content: center;
+}
+
+#footer_content {
+    justify-content: space-around;
+}
+
+#footer_links * {
+    display: block;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+#bottom {
+    padding-bottom: 70px;
+    justify-content: center;
+}
